@@ -12,7 +12,7 @@ import { TemplatesModule } from './templates/templates.module';
       port: Number(process.env.DB_PORT) || 3306,
       username: process.env.DB_USER || 'root',
       password: process.env.DB_PASSWORD || '',
-      database: process.env.DB_NAME || 'my_database',
+      database: process.env.DB_NAME || 'resume-builder',
       autoLoadEntities: true,
       synchronize: true,
     }),
